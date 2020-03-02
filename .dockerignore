@@ -1,0 +1,19 @@
+# Ignore
+__pycache__/
+*.pyc
+sse_script.egg-info/
+.vscode
+.git
+.pytest_cache
+.gitignore
+Dockerfile
+docker-compose.yml
+Makefile
+.env
+
+# Don't ignore
+!Pipfile
+!Pipfile.lock
+!README.md
+!setup.py
+!start.sh

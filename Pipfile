@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+certifi = "==2019.11.28"
+chardet = "==3.0.4"
+dnspython = "==1.16.0"
+idna = "==2.9"
+pprint = "==0.1"
+pyfiglet = "==0.8.post1"
+requests = "==2.23.0"
+sseclient-py = "==1.7"
+termcolor = "==1.1.0"
+urllib3 = "==1.25.8"
+pymongo = "*"
+pytest = "*"
+mongomock = "*"
+sse-script = {editable = true,path = "."}
+
+[requires]
+python_version = "3.6"
